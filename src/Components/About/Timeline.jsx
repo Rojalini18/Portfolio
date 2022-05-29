@@ -91,7 +91,7 @@ export const Timeline = () => {
             >
             </h4>
             <p data-aos="fade-right">
-              BPUT, Roulkela, Odisha
+              NMIET, Bhubaneswar, Odisha
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

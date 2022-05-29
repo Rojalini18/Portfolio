@@ -21,9 +21,11 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
         A passionate Front-end Web Developer and a JavaScript enthusiast who loves to create smart and highly polished
-        interfaces for the web. Looking forward to joining a team as a front-end developer where I will have
-        opportunities to utilize my experience in projects and learn in
-        global work environments.
+        interfaces for the web with hands on experience in designing, developing and maintaining projects. Highly skilled
+         in 
+        collaboration, decision-making and Data structure & Algorithms. 
+        Looking forward to work on exciting projects that
+        can help in making people's lives better and comfortable.
          {/* I am equipped with a variety of technologies and tools to help me build the best
           possible product. */}
         </p>
@@ -65,7 +67,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/11AWqI1dqP5Ds3jjvA-K9K7eRQFM-EJth/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nuDNiWE23-wAOsSU2_FRHf2VoROGLudF/view?usp=sharing"
             aria-label="github"
             className="link link--icon"
             target="_blank"

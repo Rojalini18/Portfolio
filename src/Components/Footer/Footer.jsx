@@ -14,7 +14,7 @@ export const Footer = () => {
           target="_blank"
         >
           <p className="a">Copyright © 2022. All rights reserved</p>
-          <h3 className="footer">Made with ❤ By Rojalini18</h3>
+          <h3 className="footer">Made with ❤ by Rojalini18</h3>
         </a>
       </div>
     </>

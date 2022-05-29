@@ -1,5 +1,4 @@
 import React from "react";
-
 import Typewriter from "typewriter-effect";
 
 export const Type = () => {
@@ -7,7 +6,7 @@ export const Type = () => {
     <>
       <Typewriter
         options={{
-          strings: ["A Full Stack Web Developer", "An eSports Enthusiast", "A Traveller", "A MERN Stack Developer"],
+          strings: ["A Front-end Developer", "An eSports Enthusiast", "An Explorer", "Selenophile" ],
           autoStart: true,
           loop: true,
           deleteSpeed: 50

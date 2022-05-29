@@ -13,8 +13,9 @@
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: smaller;
   max-width: 70%;
+  text-align: center;
 }
 
 .about__desc,

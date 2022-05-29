@@ -23,6 +23,7 @@
 
 .introduction_datacontainer {
   flex-basis: 55%;
+  /* font-size: smaller; */
 }
 
 .introduction_datacontainer > h4:nth-child(1) {

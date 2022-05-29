@@ -16,7 +16,6 @@ import {
   SiNodedotjs
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import youtube from "../../Assets/Requird-image/you.png"
 import stop from "../../Assets/Requird-image/stop.png"
@@ -46,7 +45,8 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Geekbuying-clone</h2>
               <p>
-              "Geekbuying.com" is leading E-Commerce website for smart electronics gadgets. Built on HTML, CSS, JavaScript for front end and Localstorage on backend. It's a team project completed executed in 5 days.
+              Geekbuying is leading E-Commerce electronic website for smart electronics gadgets. Built on HTML, CSS, 
+              JavaScript for front end and localstorage on backend. It's a team project completed executed in 5 days.
               </p>
               <div>
                 <SiHtml5 />
@@ -90,7 +90,10 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Bigbasket-clone</h2>
               <p>
-              Big Basket is one of the largest online grocery delivery service in India. Big Basket provides the convenience of finding all of customer needs from daily household items to other grocery items at a single platform. It is a key driver in revolutionizing the online grocery market in India.
+              Big Basket is one of the largest online grocery delivery service in India. Big Basket provides the 
+              convenience of finding all of customer needs from daily household items to other grocery 
+              items at a single platform. Built on HTML, CSS, 
+              JavaScript for front end and localstorage for backend.
               </p>
               <div>
                 <SiHtml5 />
@@ -133,7 +136,8 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Youtube-clone </h2>
               <p>
-                First indivisual project Built on HTML, CSS, JavaScript for front end and youtube API for showing the videos. 
+                Clone of youtube made by me, where user can watch and search videos. Built on HTML, CSS, JavaScript
+                for front end and youtube API for showing the videos. 
               </p>
               <div>
               <SiHtml5 />
@@ -174,9 +178,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Google Stopwatch</h2>
+              <h2>Google Timer</h2>
               <p>
-                Mini project of a Google Stopwatch game built using ReactJS. Features : Button for Resetting The Timer , start and Puse .
+                Mini project of Google Timer & Stopwatch made by me. Built on ReactJS. Features : Button for resetting
+                start and pause the timer.
               </p>
               <div>
                 <FaReact />
@@ -212,14 +217,15 @@ export const Projects = () => {
               <div data-aos="fade-right">
                 <img
                   src={movie}
-                  alt="Unsplash Image Search"
+                  alt="Omdb movie application"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
               <h2>Omdb Movie App</h2>
               <p>
-                You can use this app to search your favourite movies. Built to learn APIs and use them in the project.
+              Mini project of Omdb movie application made by me. Built on HTML, CSS, JavaScript for front end and 
+              omdb API for showing searched movies. 
               </p>
               <div>
                 <SiHtml5 />

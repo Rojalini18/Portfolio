@@ -27,10 +27,10 @@ export const Introduction = () => {
                 Hi Everyone, I am{" "}
                 <span className="different">Rojalini Das </span> from{" "}
                 <span className="different"> Bhubaneswar, Odisha</span>. I have
-                completed my graduation in B.Tech in Civil Engineering from BPUT, Roulkela.
+                completed my graduation in B.Tech in Civil Engineering from NMIET, Bhubaneswar.
               </h4>
               <h4>
-                Some of my interests apart form Coding :
+                Some of my interests apart form Programming :
               </h4>
               <h4 className="different">
                 <span className="icons">
@@ -49,6 +49,18 @@ export const Introduction = () => {
                   <ExitToAppIcon />
                 </span>
                 Singing{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Reading Books{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Web Seaching{" "}
               </h4>
             </div>
           </div>
