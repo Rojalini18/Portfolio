@@ -30,7 +30,7 @@ export const Introduction = () => {
                 completed my graduation in B.Tech in Civil Engineering from NMIET, Bhubaneswar.
               </h4>
               <h4>
-                Some of my interests apart form Programming :
+                Some of my interests apart from Programming :
               </h4>
               <h4 className="different">
                 <span className="icons">
@@ -60,7 +60,7 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Web Seaching{" "}
+                Web Searching{" "}
               </h4>
             </div>
           </div>
