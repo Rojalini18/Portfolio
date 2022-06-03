@@ -65,7 +65,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/gautam6023/Unit-2-Project--Clone-of-geekbuying.com"
+                  href="https://github.com/Rojalini18/Geekbuying-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -111,7 +111,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/callmeabhi1997/Big-Basket"
+                  href="https://github.com/Rojalini18/Big-Basket"
                   target="_blank"
                   rel="noreferrer"
                 >
