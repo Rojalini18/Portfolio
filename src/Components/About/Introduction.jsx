@@ -2,8 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import mypic from "../../Assets/Requird-image/mypic.jpeg"
-
+import mypic from "../../Assets/Requird-image/mypic.jpeg";
 
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -17,21 +16,17 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img
-                src={mypic}
-                alt="myimage"
-              />
+              <img src={mypic} alt="myimage" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Rojalini Das </span> from{" "}
                 <span className="different"> Bhubaneswar, Odisha</span>. I have
-                completed my graduation in B.Tech in Civil Engineering from NMIET, Bhubaneswar.
+                completed my graduation in B.Tech in Civil Engineering from
+                NMIET, Bhubaneswar.
               </h4>
-              <h4>
-                Some of my interests apart from Programming :
-              </h4>
+              <h4>Some of my interests apart from Programming :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />

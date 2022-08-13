@@ -20,13 +20,13 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-        A passionate Front-end Web Developer and a JavaScript enthusiast who loves to create smart and highly polished
-        interfaces for the web with hands on experience in designing, developing and maintaining projects. Highly skilled
-         in 
-        collaboration, decision-making and Data structure & Algorithms. 
-        Looking forward to work on exciting projects that
-        can help in making people's lives better and comfortable.
-         {/* I am equipped with a variety of technologies and tools to help me build the best
+          A passionate Front-end Web Developer and a JavaScript enthusiast who
+          loves to create smart and highly polished interfaces for the web with
+          hands on experience in designing, developing and maintaining projects.
+          Highly skilled in collaboration, decision-making and Data structure &
+          Algorithms. Looking forward to work on exciting projects that can help
+          in making people's lives better and comfortable.
+          {/* I am equipped with a variety of technologies and tools to help me build the best
           possible product. */}
         </p>
         <div className="about__contact center">

@@ -4,7 +4,6 @@ import "./ScrollToTop.css";
 
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
     const toggleVisibility = () =>
       window.pageYOffset > 500 ? setIsVisible(true) : setIsVisible(false);

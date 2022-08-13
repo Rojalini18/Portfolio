@@ -7,7 +7,7 @@ import {
   SiMaterialui,
   SiExpress,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -35,7 +35,7 @@ export const Techstacks = () => {
           <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
-          </div>          
+          </div>
           <div>
             <SiExpress />
             <h5>Express</h5>

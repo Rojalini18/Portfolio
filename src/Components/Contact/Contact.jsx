@@ -4,7 +4,6 @@ import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
-
 import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
   const [{ themename }] = React.useContext(ThemeContext);
