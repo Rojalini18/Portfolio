@@ -135,7 +135,7 @@ export const Projects = () => {
                 <SiHtml5 />
                 <DiCss3 />
                 <FaReact />
-                <SiRedux/>
+                <SiRedux />
               </div>
               <div>
                 <a
@@ -180,11 +180,10 @@ export const Projects = () => {
                 backend. It's a team project completed executed in 5 days.
               </p>
               <div>
-                
                 <SiHtml5 />
                 <DiCss3 />
                 <FaReact />
-                <SiRedux/>
+                <SiRedux />
               </div>
               <div>
                 <a
@@ -230,7 +229,7 @@ export const Projects = () => {
                 <SiHtml5 />
                 <DiCss3 />
                 <FaReact />
-                <SiRedux/>
+                <SiRedux />
               </div>
               <div>
                 <a
