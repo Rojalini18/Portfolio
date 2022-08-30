@@ -1,19 +1,12 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
   SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiRedux,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
@@ -40,7 +33,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Geekbuying-clone</h2>
+              <h2>Geekbuying</h2>
               <p>
                 Geekbuying is leading E-Commerce electronic website for smart
                 electronics gadgets. Built on HTML, CSS, JavaScript for front
@@ -85,7 +78,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Bigbasket-clone</h2>
+              <h2>Bigbasket</h2>
               <p>
                 Big Basket is one of the largest online grocery delivery service
                 in India. Big Basket provides the convenience of finding all of
@@ -130,7 +123,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Fab-bag Clone </h2>
+              <h2>Fab-bag</h2>
               <p>
                 Fab Bag is India's largest beauty subscription service. Receive
                 amazing sample/full-size products at least twice the price you
@@ -141,7 +134,8 @@ export const Projects = () => {
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <IoLogoJavascript />
+                <FaReact />
+                <SiRedux/>
               </div>
               <div>
                 <a
@@ -177,7 +171,7 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>
                 {" "}
-                <main>Modesens Clone</main>
+                <main>Modesens</main>
               </h2>
               <p>
                 ModeSens is an American retail technology company providing
@@ -186,9 +180,11 @@ export const Projects = () => {
                 backend. It's a team project completed executed in 5 days.
               </p>
               <div>
-                <FaReact />
+                
                 <SiHtml5 />
                 <DiCss3 />
+                <FaReact />
+                <SiRedux/>
               </div>
               <div>
                 <a
@@ -222,7 +218,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Monster-India-Clone</h2>
+              <h2>Monster-India</h2>
               <p>
                 Monster India, India’s leading online career and recruitment
                 resource with its cutting edge technology provides relevant
@@ -233,7 +229,8 @@ export const Projects = () => {
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <IoLogoJavascript />
+                <FaReact />
+                <SiRedux/>
               </div>
               <div>
                 <a
@@ -267,7 +264,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>T-metric Clone</h2>
+              <h2>T-metric</h2>
               <p>
                 T-metric is a time tracking software which provides time
                 tracking service for freelancers and small business owners who
@@ -279,7 +276,10 @@ export const Projects = () => {
               <div>
                 <SiHtml5 />
                 <DiCss3 />
-                <IoLogoJavascript />
+                <FaReact />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
               </div>
               <div>
                 <a
