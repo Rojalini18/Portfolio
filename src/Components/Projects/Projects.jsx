@@ -17,11 +17,12 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import youtube from "../../Assets/Requird-image/you.png";
-import stop from "../../Assets/Requird-image/stop.png";
+import modesens from "../../Assets/Requird-image/modesens.png";
+import favbag from "../../Assets/Requird-image/favbag.png";
 import bbasket from "../../Assets/Requird-image/bbasket.png";
 import geek from "../../Assets/Requird-image/geek.png";
-import movie from "../../Assets/Requird-image/movie.png";
+import monster from "../../Assets/Requird-image/monster.png";
+import tmetric from "../../Assets/Requird-image/tmetric.png";
 
 export const Projects = () => {
   return (
@@ -30,6 +31,7 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
+        {/* geek buying clone */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -74,11 +76,12 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        {/* big basket clone */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={bbasket} alt="Pluralsight-clone" />
+                <img src={bbasket} alt="bigbasket-clone" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
@@ -118,19 +121,22 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        {/* fab bag clone */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={youtube} alt="Youtube clone" />
+                <img src={favbag} alt="fabbag clone" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Youtube-clone </h2>
+              <h2>Fab-bag Clone </h2>
               <p>
-                Clone of youtube made by me, where user can watch and search
-                videos. Built on HTML, CSS, JavaScript for front end and youtube
-                API for showing the videos.
+                Fab Bag is India's largest beauty subscription service. Receive
+                amazing sample/full-size products at least twice the price you
+                pay in a delightful bag every month. Built on HTML, CSS, React &
+                Redux for front-end and localstorage on backend. It's a team
+                project completed executed in 5 days.
               </p>
               <div>
                 <SiHtml5 />
@@ -139,7 +145,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://graceful-faloodeh-d77fc4.netlify.app//"
+                  href="https://peppy-frangipane-9fee86.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -148,7 +154,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Rojalini18/Youtube"
+                  href="https://github.com/Rojalini18/Fab-Bag-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -160,19 +166,24 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        {/* modesens clone */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={stop} alt="Google Stopwatch" />
+                <img src={modesens} alt="modesens clone" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Google Timer</h2>
+              <h2>
+                {" "}
+                <main>Modesens Clone</main>
+              </h2>
               <p>
-                Mini project of Google Timer & Stopwatch made by me. Built on
-                ReactJS. Features : Button for resetting start and pause the
-                timer.
+                ModeSens is an American retail technology company providing
+                men's, women's and children's apparel and accessories. Built on
+                HTML, CSS, React & Redux for front-end and localstorage on
+                backend. It's a team project completed executed in 5 days.
               </p>
               <div>
                 <FaReact />
@@ -181,7 +192,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://cheery-chaja-8ac839.netlify.app/"
+                  href="https://modesens-clone.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -190,7 +201,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Rojalini18/Google-Timer"
+                  href="https://github.com/Rojalini18/Modesens-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -202,19 +213,22 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        {/* monster india clone */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img src={movie} alt="Omdb movie application" />
+                <img src={monster} alt="monster" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Omdb Movie App</h2>
+              <h2>Monster-India-Clone</h2>
               <p>
-                Mini project of Omdb movie application made by me. Built on
-                HTML, CSS, JavaScript for front end and omdb API for showing
-                searched movies.
+                Monster India, India’s leading online career and recruitment
+                resource with its cutting edge technology provides relevant
+                profiles to employers and relevant jobs to jobseekers. Built on
+                HTML, CSS, React & Redux for front-end and localstorage on
+                backend. It's a team project completed executed in 5 days.
               </p>
               <div>
                 <SiHtml5 />
@@ -223,7 +237,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://ubiquitous-sawine-4b9946.netlify.app/"
+                  href="https://stellular-kleicha-361f06.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -232,7 +246,53 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Rojalini18/Movie-App"
+                  href="https://github.com/Rojalini18/Monster-India-Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* tmetric clone */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={tmetric} alt="tmetric" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>T-metric Clone</h2>
+              <p>
+                T-metric is a time tracking software which provides time
+                tracking service for freelancers and small business owners who
+                want to optimize their business processes and increase personal
+                productivity. Built on HTML, CSS, React & Redux for front-end
+                and Nodejs, ExpressJs & MongoDB on backend. It's a team project
+                completed executed in 5 days.
+              </p>
+              <div>
+                <SiHtml5 />
+                <DiCss3 />
+                <IoLogoJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://creative-biscotti-30bdf4.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Rojalini18/T-metric-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -6,7 +6,6 @@
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
-  /* max-height: 400px; */
 }
 
 .techsection > div {
@@ -34,8 +33,6 @@
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
