@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"December 2021 - June 2022"}
+            date={"December 2021 - November 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
