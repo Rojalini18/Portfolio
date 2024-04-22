@@ -12,8 +12,8 @@ export const Footer = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <p className="a">Copyright © 2022. All rights reserved</p>
-          <h3 className="footer">Made with ❤ by Rojalini18</h3>
+          <p className="a">Copyright © 2024. All rights reserved</p>
+          <h3 className="footer">Made with ❤ by Rojalini Das</h3>
         </a>
       </div>
     </>

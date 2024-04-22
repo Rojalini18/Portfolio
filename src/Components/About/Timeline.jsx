@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"December 2021 - November 2022"}
+            date={"April 2023 - April 2024"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -44,28 +44,25 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Associate Software Engineer
             </h3>
-            <h4
+            {/* <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Software Development
-              and Data Structures. Also learned many soft skills in the process.
-            </p>
+              CognitiveClouds
+            </h4> */}
+            <p data-aos="fade-right">CognitiveClouds Software</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"2015 - 2019"}
+            date={"February 2023 - April 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -77,23 +74,23 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              B.Tech, Civil Engineering
+              Node JS Instructor
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             ></h4>
-            <p data-aos="fade-right">NMIET, Bhubaneswar, Odisha</p>
+            <p data-aos="fade-right">Coding Ninja's</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"April 2015"}
+            date={"January 2023 - March 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -105,21 +102,19 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Completed Higher Secondary - Science
+              Software Developer Engineer Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             ></h4>
-            <p data-aos="fade-right">
-              G.B Women's Collage, Jagatsinghpur, Odisha
-            </p>
+            <p data-aos="fade-right">Lattech Technology</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

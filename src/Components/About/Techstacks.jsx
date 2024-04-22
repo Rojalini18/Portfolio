@@ -10,7 +10,7 @@ import {
   SiNetlify,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript , SiTypescript} from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 
@@ -26,44 +26,48 @@ export const Techstacks = () => {
           </div>
           <div>
             <SiHtml5 />
-            <h5>HTML</h5>
+            <h5>HTML 5</h5>
           </div>
           <div>
             <DiCss3 />
-            <h5>CSS</h5>
+            <h5>CSS 3</h5>
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5>Node JS</h5>
           </div>
           <div>
             <SiExpress />
-            <h5>Express</h5>
+            <h5>Express JS</h5>
+          </div>
+          <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5>React JS</h5>
           </div>
           <div>
             <SiRedux />
             <h5>Redux</h5>
           </div>
           <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <DiMongodb />
+            <h5>Mongo DB</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <SiMaterialui />
+            <h5>Material UI</h5>
           </div>
           <div>
             <SiTailwindcss />
             <h5>Tailwind CSS</h5>
           </div>
-          <div>
+          {/* <div>
             <SiNetlify />
             <h5>Netlify</h5>
-          </div>
+          </div> */}
           <div>
             <VscGithub />
             <h5>Github</h5>

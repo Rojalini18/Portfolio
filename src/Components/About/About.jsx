@@ -20,14 +20,14 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A passionate Front-end Web Developer and a JavaScript enthusiast who
-          loves to create smart and highly polished interfaces for the web with
-          hands on experience in designing, developing and maintaining projects.
-          Highly skilled in collaboration, decision-making and Data structure &
-          Algorithms. Looking forward to work on exciting projects that can help
-          in making people's lives better and comfortable.
-          {/* I am equipped with a variety of technologies and tools to help me build the best
-          possible product. */}
+          Passionate and results-driven developer with a proven track record in
+          delivering top-tier web and mobile applications. Pursuing a
+          challenging and dynamic role in development to utilize my hands-on
+          experience and contribute to cutting-edge projects. Proficient in
+          React.js and React Native, with a strong background in front-end
+          development and a keen eye for crafting intuitive user interfaces, I'm
+          eager to apply and enhance my technical skills in a collaborative,
+          growth-oriented environment.
         </p>
         <div className="about__contact center">
           <a
@@ -67,7 +67,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1uX46s9t-xLb4r80G2jhW67rgmrbQ8ta_/view?usp=sharing"
+            href="https://drive.google.com/file/d/11dvqFsu0cJBz1WE-O8J2bCEo73viVDfv/view?usp=drive_link"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -75,7 +75,7 @@ export const About = () => {
           >
             <DescriptionIcon />
           </a>
-          <a
+          {/* <a
             href="https://www.facebook.com/rozalinee.rozy"
             aria-label="github"
             className="link link--icon"
@@ -92,7 +92,7 @@ export const About = () => {
             rel="noreferrer"
           >
             <PublicIcon />
-          </a>
+          </a> */}
         </div>
       </div>
       <Introduction />
